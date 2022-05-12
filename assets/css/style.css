@@ -1,0 +1,165 @@
+/* Assigning some univeral settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Changing body background colour */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Decorating header with pdding, font, background colour and text colour 
+   - changed from a class to element selector
+*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* changing font size and display type for <h1> elements withing header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* setting the padding, margin, float, font family, and font size of the nav bar 
+   - changed from a class to element selector
+*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* setting list style type to none */
+nav ul {
+    list-style-type: none;
+}
+
+/* setting the individual list items to appear inline and have a margin of 25px */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* setting all <a> tags to have a colour of #ffffff and no text decoration */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* setting the font size to 16px within all <p> tags */
+p {
+    font-size: 16px;
+}
+
+/* text styling for the 'seo' in Horiseon */
+.seo {
+    color: #d9dcd6;
+}
+
+/* setting up the main image for the page */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* sets all elements with the float-left class to float left and have a right margin of 25px */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* sets all elements with the float-right class to float right and have a left margin of 25px */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* setting all elements within content class to have the below properties */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* setting all elements within the benefits class to have the below properties */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* this selector is a consolodation of repeated selectors
+   that were setting text colour and margin bottom
+*/
+.benefits-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* setting the <h3> tag in the benefits-content class to have a 10px bottom margin and text-align center */
+.benefits-content h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* setting the <img> in the benefits-content class to display as a block, a 10px auto margin, and a 150px max width */
+.benefits-content img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* this selector is a consolodation of repeated selectors
+   that were setting margin bottm, padding, height, font family, background colour, and text colour
+*/
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* setting the <h2> tag in the main-content class to have a 20px bottom margin and 36px font size */
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* setting the <img> tag in the main-content class to have a 200px max height */
+.main-content img {
+    max-height: 200px;
+}
+
+/* setting the footer to have the below properties 
+   - changed from a class to element selector
+*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* setting the footer <h2> tag to have a 20px font size */
+footer h2 {
+    font-size: 20px;
+}
