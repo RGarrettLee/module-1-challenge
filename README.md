@@ -3,7 +3,7 @@
 
 Given an existing `index.html` and `style.css` we are to refactor the code to incorporate semantic HTML elements and consolodate as much of the code as possible 
 
-The project is live at [this link](https://rgarrettlee.github.io/module-1-challenge)
+[The project is live here](https://rgarrettlee.github.io/module-1-challenge)
 
 ---
 
@@ -28,7 +28,7 @@ The project is live at [this link](https://rgarrettlee.github.io/module-1-challe
 </div>
 ```
 
-The above code lacks and repeats the use of `<div>` throughout the code in place of tags such as `<section>` and `<header>`
+The above code repeats the use of `<div>` throughout the code in place of tags such as `<section>` and `<header>`
 
 > ### What the code needs to look like
 
